@@ -11,12 +11,10 @@ This repository contains automated test scripts for validating key user journeys
   - [3. Logout and Re-Login Validation](#3-logout-and-re-login-validation)
   - [4. Create a New Savings Account](#4-create-a-new-savings-account)
   - [5. Loan Request Validation](#5-loan-request-validation)
-- [Prerequisites](#prerequisites)
+
 - [Setup and Installation](#setup-and-installation)
 - [Test Execution](#test-execution)
-- [Test Reports](#test-reports)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -39,6 +37,15 @@ This project automates key test scenarios for the banking application using Sele
 2. Enter invalid credentials.
 3. Click the login button.
 4. Validate that the error message is displayed (e.g., "The username and password could not be verified.").
-
 ## setup-and-installation
+- install python
+- install robot framework
+- install robot framework-selenium Library
+- install pycharm 
+## test-execution
+robot -d results tests/ParabankNegativeLogin.robot
+robot -d results tests/UserRegistrationAndLoginValidation.robot
+robot -d results tests/Logout_andRe-LoginValidation.robot
+robot -d results tests/CreateANewSavingsAccount.robot
+robot -d results tests/LoanRequestValidation.robot
 
