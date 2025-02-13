@@ -1,0 +1,23 @@
+1739476991775	geckodriver	INFO	Listening on 127.0.0.1:51413
+1739476995043	mozrunner::runner	INFO	Running command: "C:\\Users\\NANABODEY\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-debugg ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NANABO~1\\AppData\\Local\\Temp\\rust_mozprofileVrHZXi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739476997205	Marionette	INFO	Marionette enabled
+1739476997741	Marionette	INFO	Listening on port 51426
+Read port: 51426
+WebDriver BiDi listening on ws://127.0.0.1:51414
+1739476997970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0004
+DevTools listening on ws://127.0.0.1:51414/devtools/browser/f3b7dd10-84d0-4e7d-b4b0-42dfa9cfbf81
+1739477006835	Marionette	INFO	Stopped listening on port 51426
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1739477006995	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 47"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:47
+destroy()@Session.sys.mjs:280
+deleteSession()@WebDriverBiDi.sys.mjs:174
+stop()@WebDriverBiDi.sys.mjs:264
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:569
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NS_ERROR_FAILURE

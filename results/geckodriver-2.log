@@ -1,0 +1,16 @@
+1739476691878	geckodriver	INFO	Listening on 127.0.0.1:51040
+1739476695433	mozrunner::runner	INFO	Running command: "C:\\Users\\NANABODEY\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-debugg ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NANABO~1\\AppData\\Local\\Temp\\rust_mozprofilenG2QZk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739476697502	Marionette	INFO	Marionette enabled
+1739476697941	Marionette	INFO	Listening on port 51064
+Read port: 51064
+WebDriver BiDi listening on ws://127.0.0.1:51041
+1739476698167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0004
+DevTools listening on ws://127.0.0.1:51041/devtools/browser/63a3d6dc-9ac7-4fb6-96ad-f91856067ff7
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1739476796127	Marionette	INFO	Stopped listening on port 51064
+Dynamically enable window occlusion 1
+console.error: "TelemetryScheduler.shutdown - Already shut down"

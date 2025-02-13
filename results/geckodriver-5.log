@@ -1,0 +1,18 @@
+1739476739247	geckodriver	INFO	Listening on 127.0.0.1:51164
+1739476742542	mozrunner::runner	INFO	Running command: "C:\\Users\\NANABODEY\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-debugg ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NANABO~1\\AppData\\Local\\Temp\\rust_mozprofileVVNfRM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739476744681	Marionette	INFO	Marionette enabled
+1739476745158	Marionette	INFO	Listening on port 51183
+Read port: 
+1739476745201	geckodriver::browser	WARN	Failed fo convert  to u16
+WebDriver BiDi listening on ws://127.0.0.1:51165
+Read port: 51183
+1739476745616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0004
+DevTools listening on ws://127.0.0.1:51165/devtools/browser/b13c1ffa-2c1d-4fa4-a7c3-820eb632090a
+1739476797015	Marionette	INFO	Stopped listening on port 51183
+Dynamically enable window occlusion 1
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NS_ERROR_FAILURE
