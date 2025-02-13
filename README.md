@@ -40,4 +40,5 @@ This project automates key test scenarios for the banking application using Sele
 3. Click the login button.
 4. Validate that the error message is displayed (e.g., "The username and password could not be verified.").
 
+## setup-and-installation
 
